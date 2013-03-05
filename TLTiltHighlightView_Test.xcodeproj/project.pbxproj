@@ -10,32 +10,39 @@
 		5E9C08AB16E63B440072CCC7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C08AA16E63B440072CCC7 /* UIKit.framework */; };
 		5E9C08AD16E63B440072CCC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C08AC16E63B440072CCC7 /* Foundation.framework */; };
 		5E9C08AF16E63B440072CCC7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C08AE16E63B440072CCC7 /* CoreGraphics.framework */; };
-		5E9C08CF16E63BE70072CCC7 /* TLTiltHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */; };
 		5E9C08D116E63CFC0072CCC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C08D016E63CFC0072CCC7 /* QuartzCore.framework */; };
 		5E9C08D316E640060072CCC7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C08D216E640060072CCC7 /* CoreMotion.framework */; };
+		5EBEFCDE16E6A84200C19486 /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C08E216E65E3F0072CCC7 /* TLViewController.m */; };
+		5EBEFCDF16E6A84400C19486 /* TLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C08DE16E65E3F0072CCC7 /* TLAppDelegate.m */; };
+		5EBEFCE316E6A86800C19486 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBEFCE016E6A86800C19486 /* Default-568h@2x.png */; };
+		5EBEFCE416E6A86800C19486 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBEFCE116E6A86800C19486 /* Default.png */; };
+		5EBEFCE516E6A86800C19486 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EBEFCE216E6A86800C19486 /* Default@2x.png */; };
+		5EBEFCE616E6A90500C19486 /* TLTiltHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */; };
+		5EBEFCE716E6A94200C19486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C08DC16E65E3F0072CCC7 /* main.m */; };
+		5EBEFCE816E6A95F00C19486 /* TLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C08DA16E65E3F0072CCC7 /* TLViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E9C08A716E63B440072CCC7 /* TLTiltHighlightView Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TLTiltHighlightView Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9C08A716E63B440072CCC7 /* TLTiltHighlightView_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLTiltHighlightView_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9C08AA16E63B440072CCC7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E9C08AC16E63B440072CCC7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5E9C08AE16E63B440072CCC7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5E9C08CD16E63BE70072CCC7 /* TLTiltHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLTiltHighlightView.h; path = ../TLTiltHighlightView.h; sourceTree = "<group>"; };
-		5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLTiltHighlightView.m; path = ../TLTiltHighlightView.m; sourceTree = "<group>"; };
+		5E9C08CD16E63BE70072CCC7 /* TLTiltHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTiltHighlightView.h; sourceTree = SOURCE_ROOT; };
+		5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTiltHighlightView.m; sourceTree = SOURCE_ROOT; };
 		5E9C08D016E63CFC0072CCC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5E9C08D216E640060072CCC7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		5E9C08D416E65E3E0072CCC7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "TLTiltHighlightView Test/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
-		5E9C08D516E65E3E0072CCC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "TLTiltHighlightView Test/Default.png"; sourceTree = SOURCE_ROOT; };
-		5E9C08D616E65E3E0072CCC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "TLTiltHighlightView Test/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		5E9C08D916E65E3F0072CCC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 		5E9C08DB16E65E3F0072CCC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = TLViewController.xib; sourceTree = "<group>"; };
 		5E9C08DC16E65E3F0072CCC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "TLTiltHighlightView Test/main.m"; sourceTree = SOURCE_ROOT; };
 		5E9C08DD16E65E3F0072CCC7 /* TLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TLAppDelegate.h; path = "TLTiltHighlightView Test/TLAppDelegate.h"; sourceTree = SOURCE_ROOT; };
 		5E9C08DE16E65E3F0072CCC7 /* TLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TLAppDelegate.m; path = "TLTiltHighlightView Test/TLAppDelegate.m"; sourceTree = SOURCE_ROOT; };
-		5E9C08DF16E65E3F0072CCC7 /* TLTiltHighlightView Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TLTiltHighlightView Test-Info.plist"; path = "TLTiltHighlightView Test/TLTiltHighlightView Test-Info.plist"; sourceTree = SOURCE_ROOT; };
-		5E9C08E016E65E3F0072CCC7 /* TLTiltHighlightView Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TLTiltHighlightView Test-Prefix.pch"; path = "TLTiltHighlightView Test/TLTiltHighlightView Test-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		5E9C08DF16E65E3F0072CCC7 /* TLTiltHighlightView-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "TLTiltHighlightView-Test-Info.plist"; path = "TLTiltHighlightView Test/TLTiltHighlightView-Test-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5E9C08E016E65E3F0072CCC7 /* TLTiltHighlightView-Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TLTiltHighlightView-Test-Prefix.pch"; path = "TLTiltHighlightView Test/TLTiltHighlightView-Test-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		5E9C08E116E65E3F0072CCC7 /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TLViewController.h; path = "TLTiltHighlightView Test/TLViewController.h"; sourceTree = SOURCE_ROOT; };
 		5E9C08E216E65E3F0072CCC7 /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TLViewController.m; path = "TLTiltHighlightView Test/TLViewController.m"; sourceTree = SOURCE_ROOT; };
+		5EBEFCE016E6A86800C19486 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		5EBEFCE116E6A86800C19486 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = SOURCE_ROOT; };
+		5EBEFCE216E6A86800C19486 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +73,7 @@
 		5E9C08A816E63B440072CCC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E9C08A716E63B440072CCC7 /* TLTiltHighlightView Test.app */,
+				5E9C08A716E63B440072CCC7 /* TLTiltHighlightView_Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,12 +108,12 @@
 		5E9C08B116E63B440072CCC7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E9C08D416E65E3E0072CCC7 /* Default-568h@2x.png */,
-				5E9C08D516E65E3E0072CCC7 /* Default.png */,
-				5E9C08D616E65E3E0072CCC7 /* Default@2x.png */,
+				5EBEFCE016E6A86800C19486 /* Default-568h@2x.png */,
+				5EBEFCE116E6A86800C19486 /* Default.png */,
+				5EBEFCE216E6A86800C19486 /* Default@2x.png */,
 				5E9C08DC16E65E3F0072CCC7 /* main.m */,
-				5E9C08DF16E65E3F0072CCC7 /* TLTiltHighlightView Test-Info.plist */,
-				5E9C08E016E65E3F0072CCC7 /* TLTiltHighlightView Test-Prefix.pch */,
+				5E9C08DF16E65E3F0072CCC7 /* TLTiltHighlightView-Test-Info.plist */,
+				5E9C08E016E65E3F0072CCC7 /* TLTiltHighlightView-Test-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -124,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E9C08A616E63B440072CCC7 /* TLTiltHighlightView Test */ = {
+		5E9C08A616E63B440072CCC7 /* TLTiltHighlightView_Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E9C08CA16E63B440072CCC7 /* Build configuration list for PBXNativeTarget "TLTiltHighlightView Test" */;
+			buildConfigurationList = 5E9C08CA16E63B440072CCC7 /* Build configuration list for PBXNativeTarget "TLTiltHighlightView_Test" */;
 			buildPhases = (
 				5E9C08A316E63B440072CCC7 /* Sources */,
 				5E9C08A416E63B440072CCC7 /* Frameworks */,
@@ -136,9 +143,9 @@
 			);
 			dependencies = (
 			);
-			name = "TLTiltHighlightView Test";
+			name = TLTiltHighlightView_Test;
 			productName = TLTiltHighlightView;
-			productReference = 5E9C08A716E63B440072CCC7 /* TLTiltHighlightView Test.app */;
+			productReference = 5E9C08A716E63B440072CCC7 /* TLTiltHighlightView_Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +158,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Teehan+Lax";
 			};
-			buildConfigurationList = 5E9C08A216E63B440072CCC7 /* Build configuration list for PBXProject "TLTiltHighlightView Test" */;
+			buildConfigurationList = 5E9C08A216E63B440072CCC7 /* Build configuration list for PBXProject "TLTiltHighlightView_Test" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -163,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E9C08A616E63B440072CCC7 /* TLTiltHighlightView Test */,
+				5E9C08A616E63B440072CCC7 /* TLTiltHighlightView_Test */,
 			);
 		};
 /* End PBXProject section */
@@ -173,6 +180,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EBEFCE816E6A95F00C19486 /* TLViewController.xib in Resources */,
+				5EBEFCE316E6A86800C19486 /* Default-568h@2x.png in Resources */,
+				5EBEFCE416E6A86800C19486 /* Default.png in Resources */,
+				5EBEFCE516E6A86800C19486 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,7 +194,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E9C08CF16E63BE70072CCC7 /* TLTiltHighlightView.m in Sources */,
+				5EBEFCE716E6A94200C19486 /* main.m in Sources */,
+				5EBEFCE616E6A90500C19486 /* TLTiltHighlightView.m in Sources */,
+				5EBEFCDF16E6A84400C19486 /* TLAppDelegate.m in Sources */,
+				5EBEFCDE16E6A84200C19486 /* TLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +283,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TLTiltHighlightView/TLTiltHighlightView Test-Prefix.pch";
-				INFOPLIST_FILE = "TLTiltHighlightView/TLTiltHighlightView Test-Info.plist";
-				PRODUCT_NAME = "TLTiltHighlightView Test";
+				GCC_PREFIX_HEADER = "TLTiltHighlightView Test/TLTiltHighlightView-Test-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TLTiltHighlightView Test/TLTiltHighlightView-Test-Info.plist";
+				PRODUCT_NAME = TLTiltHighlightView_Test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -280,9 +294,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TLTiltHighlightView/TLTiltHighlightView Test-Prefix.pch";
-				INFOPLIST_FILE = "TLTiltHighlightView/TLTiltHighlightView Test-Info.plist";
-				PRODUCT_NAME = "TLTiltHighlightView Test";
+				GCC_PREFIX_HEADER = "TLTiltHighlightView Test/TLTiltHighlightView-Test-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TLTiltHighlightView Test/TLTiltHighlightView-Test-Info.plist";
+				PRODUCT_NAME = TLTiltHighlightView_Test;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -290,7 +304,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E9C08A216E63B440072CCC7 /* Build configuration list for PBXProject "TLTiltHighlightView Test" */ = {
+		5E9C08A216E63B440072CCC7 /* Build configuration list for PBXProject "TLTiltHighlightView_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E9C08C816E63B440072CCC7 /* Debug */,
@@ -299,13 +313,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E9C08CA16E63B440072CCC7 /* Build configuration list for PBXNativeTarget "TLTiltHighlightView Test" */ = {
+		5E9C08CA16E63B440072CCC7 /* Build configuration list for PBXNativeTarget "TLTiltHighlightView_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E9C08CB16E63B440072CCC7 /* Debug */,
 				5E9C08CC16E63B440072CCC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
