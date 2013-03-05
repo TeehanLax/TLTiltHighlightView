@@ -16,6 +16,8 @@ Create an instance of `TLTiltHighlightView` and add it to a view hierarchy. Opti
     TLTiltHighlightView *highlightView = [[TLTiltHighlightView alloc] initWithFrame:CGRectMake(0, 44, CGRectGetWidth(self.view.bounds), 2)];
     [self.view addSubview:highlightView];
     
+![Our implementation](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/implementation.png)
+    
 You can also change the background color and the highlight colours. 
     
     highlightView.highlightColor = [UIColor redColor];
