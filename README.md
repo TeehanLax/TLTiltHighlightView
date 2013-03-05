@@ -11,6 +11,10 @@ How to Use
 
 Drag `TLTiltHighlightView.h` and `TLTiltHighlightView.m` into your project. Make sure to [add](http://stackoverflow.com/questions/3352664/how-to-add-existing-frameworks-in-xcode-4) QuartzCore and CoreMotion to the list of libraries you link against. 
 
+Alternatively, you can use [CocoaPods](http://cocoapods.org):
+
+    pod install TLTiltHighlightView
+
 Create an instance of `TLTiltHighlightView` and add it to a view hierarchy. Optimal size is any width and 2pt tall (the keyline will always sit at the bottom of the `TLTiltHighlightView`).
 
     TLTiltHighlightView *highlightView = [[TLTiltHighlightView alloc] initWithFrame:CGRectMake(0, 44, CGRectGetWidth(self.view.bounds), 2)];
