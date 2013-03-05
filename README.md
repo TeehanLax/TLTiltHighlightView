@@ -1,10 +1,10 @@
 TLTiltHighlightView
 ===================
 
-`TLTiltHighlightView` is a `UIView` subclass with a horiztontal gradient which adjusts its appearance based on the positional attitude of the device. The movement of the gradient when re-orientating the device is *subtle* – it's meant to augment keylines. This mimicks the iOS 6 Music app (notice the gradient keylines at the very top and bottom of the images).
+`TLTiltHighlightView` is a `UIView` subclass with a horizontal gradient which adjusts its appearance based on the positional attitude of the device. The movement of the gradient when re-orientating the device is *subtle* – it's meant to augment keylines. This mimics the iOS 6 Music app (notice the gradient keylines at the very top and bottom of the images).
 
-![Left hightlight](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/left.png)
-![Right hightlight](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/right.png)
+![Left highlight](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/left.png)
+![Right highlight](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/right.png)
 
 How to Use
 -----------------------
@@ -18,14 +18,14 @@ Create an instance of `TLTiltHighlightView` and add it to a view hierarchy. Opti
     
 ![Our implementation](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/implementation.png)
     
-You can also change the background color and the highlight colours. 
+You can also change the background colour and the highlight colours. 
     
     highlightView.highlightColor = [UIColor redColor];
     highlightView.backgroundColor = [UIColor clearColor];
     
 Alternatively to instantiating the class programmatically, you can also use Interface Builder by selecting the Identity Inspector and changing the class of a view.
 
-![Interface Builer](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/interface_builder.png)
+![Interface Builder](https://github.com/TeehanLax/TLTiltHighlightView/raw/master/images/interface_builder.png)
 
 
 The `TLTiltHighlightView` class supports all four interface orientations of iPhones and iPads. 
@@ -33,4 +33,4 @@ The `TLTiltHighlightView` class supports all four interface orientations of iPho
 Requirements
 -----------------------
 
-You must link with QuartzCore and CoreMotion. This project requires ARC and has been tested on iOS 6. It should work on iOS 5, but it has not been rigourously tested. If you use it successfully on iOS 5, please let us know!
+You must link with QuartzCore and CoreMotion. This project requires ARC and has been tested on iOS 6. It should work on iOS 5, but it has not been rigorously tested. If you use it successfully on iOS 5, please let us know!
