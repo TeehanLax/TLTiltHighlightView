@@ -40,8 +40,8 @@
 		5E9C08C216E63B440072CCC7 /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
 		5E9C08C316E63B440072CCC7 /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
 		5E9C08C616E63B440072CCC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TLViewController.xib; sourceTree = "<group>"; };
-		5E9C08CD16E63BE70072CCC7 /* TLTiltHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTiltHighlightView.h; sourceTree = "<group>"; };
-		5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTiltHighlightView.m; sourceTree = "<group>"; };
+		5E9C08CD16E63BE70072CCC7 /* TLTiltHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TLTiltHighlightView.h; path = ../TLTiltHighlightView.h; sourceTree = "<group>"; };
+		5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TLTiltHighlightView.m; path = ../TLTiltHighlightView.m; sourceTree = "<group>"; };
 		5E9C08D016E63CFC0072CCC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		5E9C08D216E640060072CCC7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
