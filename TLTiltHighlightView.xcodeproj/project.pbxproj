@@ -18,6 +18,9 @@
 		5E9C08C116E63B440072CCC7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C08C016E63B440072CCC7 /* Default-568h@2x.png */; };
 		5E9C08C416E63B440072CCC7 /* TLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C08C316E63B440072CCC7 /* TLViewController.m */; };
 		5E9C08C716E63B440072CCC7 /* TLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E9C08C516E63B440072CCC7 /* TLViewController.xib */; };
+		5E9C08CF16E63BE70072CCC7 /* TLTiltHighlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */; };
+		5E9C08D116E63CFC0072CCC7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C08D016E63CFC0072CCC7 /* QuartzCore.framework */; };
+		5E9C08D316E640060072CCC7 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9C08D216E640060072CCC7 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		5E9C08C216E63B440072CCC7 /* TLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLViewController.h; sourceTree = "<group>"; };
 		5E9C08C316E63B440072CCC7 /* TLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLViewController.m; sourceTree = "<group>"; };
 		5E9C08C616E63B440072CCC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TLViewController.xib; sourceTree = "<group>"; };
+		5E9C08CD16E63BE70072CCC7 /* TLTiltHighlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLTiltHighlightView.h; sourceTree = "<group>"; };
+		5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLTiltHighlightView.m; sourceTree = "<group>"; };
+		5E9C08D016E63CFC0072CCC7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5E9C08D216E640060072CCC7 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9C08D316E640060072CCC7 /* CoreMotion.framework in Frameworks */,
+				5E9C08D116E63CFC0072CCC7 /* QuartzCore.framework in Frameworks */,
 				5E9C08AB16E63B440072CCC7 /* UIKit.framework in Frameworks */,
 				5E9C08AD16E63B440072CCC7 /* Foundation.framework in Frameworks */,
 				5E9C08AF16E63B440072CCC7 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,8 @@
 		5E9C08A916E63B440072CCC7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E9C08D216E640060072CCC7 /* CoreMotion.framework */,
+				5E9C08D016E63CFC0072CCC7 /* QuartzCore.framework */,
 				5E9C08AA16E63B440072CCC7 /* UIKit.framework */,
 				5E9C08AC16E63B440072CCC7 /* Foundation.framework */,
 				5E9C08AE16E63B440072CCC7 /* CoreGraphics.framework */,
@@ -88,6 +99,8 @@
 				5E9C08C216E63B440072CCC7 /* TLViewController.h */,
 				5E9C08C316E63B440072CCC7 /* TLViewController.m */,
 				5E9C08C516E63B440072CCC7 /* TLViewController.xib */,
+				5E9C08CD16E63BE70072CCC7 /* TLTiltHighlightView.h */,
+				5E9C08CE16E63BE70072CCC7 /* TLTiltHighlightView.m */,
 				5E9C08B116E63B440072CCC7 /* Supporting Files */,
 			);
 			path = TLTiltHighlightView;
@@ -177,6 +190,7 @@
 				5E9C08B716E63B440072CCC7 /* main.m in Sources */,
 				5E9C08BB16E63B440072CCC7 /* TLAppDelegate.m in Sources */,
 				5E9C08C416E63B440072CCC7 /* TLViewController.m in Sources */,
+				5E9C08CF16E63BE70072CCC7 /* TLTiltHighlightView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
