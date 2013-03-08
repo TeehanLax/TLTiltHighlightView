@@ -13,7 +13,7 @@ Drag `TLTiltHighlightView.h` and `TLTiltHighlightView.m` into your project. Make
 
 Alternatively, you can use [CocoaPods](http://cocoapods.org):
 
-    pod install TLTiltHighlightView
+    pod search TLTiltHighlightView
 
 Create an instance of `TLTiltHighlightView` and add it to a view hierarchy. Optimal size is any width and 2pt tall (the keyline will always sit at the bottom of the `TLTiltHighlightView`).
 
